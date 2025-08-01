@@ -1,0 +1,52 @@
+.navbar {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 1rem 2rem;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #ddd !important;
+  margin-left: 1rem;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+.hero-section {
+  background: linear-gradient(to right, #e9f1fb, #ffffff);
+  padding: 60px 0;
+}
+
+.hero-section h1 {
+  color: #0d6efd;
+}
+
+.hero-section img {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.newsletter-section input::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+
+#newsletterMsg {
+  transition: all 0.3s ease;
+}
+#contact {
+  background: #f8f9fa;
+}
+
+#contact h2 {
+  font-weight: 700;
+  color: #0044ff;
+}
